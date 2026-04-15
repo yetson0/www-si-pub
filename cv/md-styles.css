@@ -1,0 +1,38 @@
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.markdown-body code {
+  font-family: 'Roboto Mono', monospace;
+  color: darkslategray;
+  background-color: lightblue;
+}
+
+.markdown-body pre {
+  background-color: lightblue;
+}
+
+/*code[class*="language-"],
+pre[class*="language-"] {
+  text-shadow: none;
+   color: red; 
+}*/
+
+a:link {
+  color: steelblue;
+}
+a:visited {
+  color: steelblue;
+}
+
+
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}
